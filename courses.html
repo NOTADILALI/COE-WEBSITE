@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COE-WEBSITE</title>
+    <link href="assets/images/iithlogo.png" rel="icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <style>
+
+        h4{
+            text-align: center;
+        }
+
+        table{
+            margin-top: 25px;
+        }
+
+        table, th, td {
+              border: 1px solid #b6b2b2;
+        }
+
+        th, td {
+              padding: 5px;
+        }
+
+        
+        th{
+            color: black;
+            font-weight: 500;
+            font-size: large;
+            text-align: center;
+        }
+
+        .id{
+            padding-left: 20px;
+        }
+
+        .num{
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8e8e8;
+        }
+
+        .first2{
+            padding: 25px 0px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+
+    </style>
+</head>
+<body> 
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    
+          <a href="index.html" class="logo d-flex align-items-center me-auto">
+             <img src="assets/images/iithlogo.png" class="logo-img"/>
+             <div class="logo-text">
+                <h1>Computational Engineering</h1>
+                <h2>Indian Institute of Technology, Hyderabad</h2>
+             </div>
+          </a>
+    
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              
+              <li class="dropdown has-dropdown"><a  href=""><span>Academics</span> <img src="assets/svg/chevron-down.svg" class="bi bi-chevron-down" width="12.5px"/></a>
+                <ul>
+                  <li><a href="#">Academic Calender</a></li>
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="curriculum.html">Curriculum</a></li>
+                </ul>
+              </li>
+    
+              <li class="dropdown has-dropdown"><a href="#"><span>People</span> <img src="assets/svg/chevron-down.svg" class="bi bi-chevron-down" width="12.5px"/></a>
+                <ul>
+                  <li><a href="#">Staff</a></li>
+                  <li><a href="students.html">Students</a></li>
+                </ul>
+              </li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <img src="assets/svg/list.svg" class="mobile-nav-toggle d-xl-none bi bi-list" height="30px"/>
+          </nav>
+    
+        </div>
+    </header>
+    
+
+    <div class="container">
+        <div class="first2">
+        <div>
+        <h4>SEMESTER-1</h4>
+        <table>
+            <tr>
+                <th>COURSE ID</th>
+                <th>COURSE NAME</th>
+                <th>CREDITS</th>
+            </tr>
+            <tr>
+                <td class="id">MA1140</td>
+                <td>CALCULUS-1</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td class="id">MA1220</td>
+                <td>CALCULUS-2</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td class="id">EP1108</td>
+                <td>MODERN PHYSICS</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td class="id">CY1010</td>
+                <td>ENVIRONMENTAL CHEMISTRY</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td class="id">1D1063</td>
+                <td>INTRODUCTION TO PROGRAMMING</td>
+                <td class="num">3</td>
+            </tr>
+            <tr>
+                <td class="id">ID1041</td>
+                <td>ENGINEERING DRAWING</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td class="id">EE1202</td>
+                <td>DIGITAL CIRCUITS</td>
+                <td class="num">3</td>
+            </tr>
+            <tr>
+                <td class="id">CO1020</td>
+                <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td class="id">BT1010</td>
+                <td>INTRODUCTION TO LIFE SCIENCES</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>TOTAL CREDITS</td>
+                <td class="num">17</td>
+            </tr>
+
+        </table>
+        </div>
+
+        <div>
+            <h4>SEMESTER-2</h4>
+            <table>
+                <tr>
+                    <th>COURSE ID</th>
+                    <th>COURSE NAME</th>
+                    <th>CREDITS</th>
+                </tr>
+                <tr>
+                    <td class="id">MA1140</td>
+                    <td>ELEMENTARY LINEAT ALGEBRA</td>
+                    <td class="num">1</td>
+                </tr>
+                <tr>
+                    <td class="id">MA1150</td>
+                    <td>DIFFERENTIAL EQUATIONS</td>
+                    <td class="num">1</td>
+                </tr>
+                <tr>
+                    <td class="id">ID1040</td>
+                    <td>DIGITAL FABRICATION</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">ME1030</td>
+                    <td>ENGINEERING MECHANICS</td>
+                    <td class="num">3</td>
+                </tr>
+                <tr>
+                    <td class="id">BM1030</td>
+                    <td>BIOENGINEERING</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">ID1041</td>
+                    <td>ENGINEERING DRAWING</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">EE1202</td>
+                    <td>DIGITAL CIRCUITS</td>
+                    <td class="num">3</td>
+                </tr>
+                <tr>
+                    <td class="id">CO1020</td>
+                    <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">BT1010</td>
+                    <td>INTRODUCTION TO LIFE SCIENCES</td>
+                    <td class="num">1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>TOTAL CREDITS</td>
+                    <td class="num">17</td>
+                </tr>
+    
+            </table>
+            </div>
+        </div>
+
+        <div class="first2">
+            <div>
+            <h4>SEMESTER-3</h4>
+            <table>
+                <tr>
+                    <th>COURSE ID</th>
+                    <th>COURSE NAME</th>
+                    <th>CREDITS</th>
+                </tr>
+                <tr>
+                    <td class="id">MA1140</td>
+                    <td>CALCULUS-1</td>
+                    <td class="num">1</td>
+                </tr>
+                <tr>
+                    <td class="id">MA1220</td>
+                    <td>CALCULUS-2</td>
+                    <td class="num">1</td>
+                </tr>
+                <tr>
+                    <td class="id">EP1108</td>
+                    <td>MODERN PHYSICS</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">CY1010</td>
+                    <td>ENVIRONMENTAL CHEMISTRY</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">1D1063</td>
+                    <td>INTRODUCTION TO PROGRAMMING</td>
+                    <td class="num">3</td>
+                </tr>
+                <tr>
+                    <td class="id">ID1041</td>
+                    <td>ENGINEERING DRAWING</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">EE1202</td>
+                    <td>DIGITAL CIRCUITS</td>
+                    <td class="num">3</td>
+                </tr>
+                <tr>
+                    <td class="id">CO1020</td>
+                    <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                    <td class="num">2</td>
+                </tr>
+                <tr>
+                    <td class="id">BT1010</td>
+                    <td>INTRODUCTION TO LIFE SCIENCES</td>
+                    <td class="num">1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>TOTAL CREDITS</td>
+                    <td class="num">17</td>
+                </tr>
+    
+            </table>
+            </div>
+    
+            <div>
+                <h4>SEMESTER-4</h4>
+                <table>
+                    <tr>
+                        <th>COURSE ID</th>
+                        <th>COURSE NAME</th>
+                        <th>CREDITS</th>
+                    </tr>
+                    <tr>
+                        <td class="id">MA1140</td>
+                        <td>ELEMENTARY LINEAT ALGEBRA</td>
+                        <td class="num">1</td>
+                    </tr>
+                    <tr>
+                        <td class="id">MA1150</td>
+                        <td>DIFFERENTIAL EQUATIONS</td>
+                        <td class="num">1</td>
+                    </tr>
+                    <tr>
+                        <td class="id">ID1040</td>
+                        <td>DIGITAL FABRICATION</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">ME1030</td>
+                        <td>ENGINEERING MECHANICS</td>
+                        <td class="num">3</td>
+                    </tr>
+                    <tr>
+                        <td class="id">BM1030</td>
+                        <td>BIOENGINEERING</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">ID1041</td>
+                        <td>ENGINEERING DRAWING</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">EE1202</td>
+                        <td>DIGITAL CIRCUITS</td>
+                        <td class="num">3</td>
+                    </tr>
+                    <tr>
+                        <td class="id">CO1020</td>
+                        <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">BT1010</td>
+                        <td>INTRODUCTION TO LIFE SCIENCES</td>
+                        <td class="num">1</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>TOTAL CREDITS</td>
+                        <td class="num">17</td>
+                    </tr>
+        
+                </table>
+                </div>
+            </div>
+
+            <div class="first2">
+                <div>
+                <h4>SEMESTER-5</h4>
+                <table>
+                    <tr>
+                        <th>COURSE ID</th>
+                        <th>COURSE NAME</th>
+                        <th>CREDITS</th>
+                    </tr>
+                    <tr>
+                        <td class="id">MA1140</td>
+                        <td>CALCULUS-1</td>
+                        <td class="num">1</td>
+                    </tr>
+                    <tr>
+                        <td class="id">MA1220</td>
+                        <td>CALCULUS-2</td>
+                        <td class="num">1</td>
+                    </tr>
+                    <tr>
+                        <td class="id">EP1108</td>
+                        <td>MODERN PHYSICS</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">CY1010</td>
+                        <td>ENVIRONMENTAL CHEMISTRY</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">1D1063</td>
+                        <td>INTRODUCTION TO PROGRAMMING</td>
+                        <td class="num">3</td>
+                    </tr>
+                    <tr>
+                        <td class="id">ID1041</td>
+                        <td>ENGINEERING DRAWING</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">EE1202</td>
+                        <td>DIGITAL CIRCUITS</td>
+                        <td class="num">3</td>
+                    </tr>
+                    <tr>
+                        <td class="id">CO1020</td>
+                        <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                        <td class="num">2</td>
+                    </tr>
+                    <tr>
+                        <td class="id">BT1010</td>
+                        <td>INTRODUCTION TO LIFE SCIENCES</td>
+                        <td class="num">1</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>TOTAL CREDITS</td>
+                        <td class="num">17</td>
+                    </tr>
+        
+                </table>
+                </div>
+        
+                <div>
+                    <h4>SEMESTER-6</h4>
+                    <table>
+                        <tr>
+                            <th>COURSE ID</th>
+                            <th>COURSE NAME</th>
+                            <th>CREDITS</th>
+                        </tr>
+                        <tr>
+                            <td class="id">MA1140</td>
+                            <td>ELEMENTARY LINEAT ALGEBRA</td>
+                            <td class="num">1</td>
+                        </tr>
+                        <tr>
+                            <td class="id">MA1150</td>
+                            <td>DIFFERENTIAL EQUATIONS</td>
+                            <td class="num">1</td>
+                        </tr>
+                        <tr>
+                            <td class="id">ID1040</td>
+                            <td>DIGITAL FABRICATION</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">ME1030</td>
+                            <td>ENGINEERING MECHANICS</td>
+                            <td class="num">3</td>
+                        </tr>
+                        <tr>
+                            <td class="id">BM1030</td>
+                            <td>BIOENGINEERING</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">ID1041</td>
+                            <td>ENGINEERING DRAWING</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">EE1202</td>
+                            <td>DIGITAL CIRCUITS</td>
+                            <td class="num">3</td>
+                        </tr>
+                        <tr>
+                            <td class="id">CO1020</td>
+                            <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">BT1010</td>
+                            <td>INTRODUCTION TO LIFE SCIENCES</td>
+                            <td class="num">1</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>TOTAL CREDITS</td>
+                            <td class="num">17</td>
+                        </tr>
+            
+                    </table>
+                    </div>
+                </div>
+
+                <div class="first2">
+                    <div>
+                    <h4>SEMESTER-7</h4>
+                    <table>
+                        <tr>
+                            <th>COURSE ID</th>
+                            <th>COURSE NAME</th>
+                            <th>CREDITS</th>
+                        </tr>
+                        <tr>
+                            <td class="id">MA1140</td>
+                            <td>CALCULUS-1</td>
+                            <td class="num">1</td>
+                        </tr>
+                        <tr>
+                            <td class="id">MA1220</td>
+                            <td>CALCULUS-2</td>
+                            <td class="num">1</td>
+                        </tr>
+                        <tr>
+                            <td class="id">EP1108</td>
+                            <td>MODERN PHYSICS</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">CY1010</td>
+                            <td>ENVIRONMENTAL CHEMISTRY</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">1D1063</td>
+                            <td>INTRODUCTION TO PROGRAMMING</td>
+                            <td class="num">3</td>
+                        </tr>
+                        <tr>
+                            <td class="id">ID1041</td>
+                            <td>ENGINEERING DRAWING</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">EE1202</td>
+                            <td>DIGITAL CIRCUITS</td>
+                            <td class="num">3</td>
+                        </tr>
+                        <tr>
+                            <td class="id">CO1020</td>
+                            <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                            <td class="num">2</td>
+                        </tr>
+                        <tr>
+                            <td class="id">BT1010</td>
+                            <td>INTRODUCTION TO LIFE SCIENCES</td>
+                            <td class="num">1</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>TOTAL CREDITS</td>
+                            <td class="num">17</td>
+                        </tr>
+            
+                    </table>
+                    </div>
+            
+                    <div>
+                        <h4>SEMESTER-8</h4>
+                        <table>
+                            <tr>
+                                <th>COURSE ID</th>
+                                <th>COURSE NAME</th>
+                                <th>CREDITS</th>
+                            </tr>
+                            <tr>
+                                <td class="id">MA1140</td>
+                                <td>ELEMENTARY LINEAT ALGEBRA</td>
+                                <td class="num">1</td>
+                            </tr>
+                            <tr>
+                                <td class="id">MA1150</td>
+                                <td>DIFFERENTIAL EQUATIONS</td>
+                                <td class="num">1</td>
+                            </tr>
+                            <tr>
+                                <td class="id">ID1040</td>
+                                <td>DIGITAL FABRICATION</td>
+                                <td class="num">2</td>
+                            </tr>
+                            <tr>
+                                <td class="id">ME1030</td>
+                                <td>ENGINEERING MECHANICS</td>
+                                <td class="num">3</td>
+                            </tr>
+                            <tr>
+                                <td class="id">BM1030</td>
+                                <td>BIOENGINEERING</td>
+                                <td class="num">2</td>
+                            </tr>
+                            <tr>
+                                <td class="id">ID1041</td>
+                                <td>ENGINEERING DRAWING</td>
+                                <td class="num">2</td>
+                            </tr>
+                            <tr>
+                                <td class="id">EE1202</td>
+                                <td>DIGITAL CIRCUITS</td>
+                                <td class="num">3</td>
+                            </tr>
+                            <tr>
+                                <td class="id">CO1020</td>
+                                <td>FUNDAMENTALS OF SCIENTIFIC COMPUTING</td>
+                                <td class="num">2</td>
+                            </tr>
+                            <tr>
+                                <td class="id">BT1010</td>
+                                <td>INTRODUCTION TO LIFE SCIENCES</td>
+                                <td class="num">1</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>TOTAL CREDITS</td>
+                                <td class="num">17</td>
+                            </tr>
+                
+                        </table>
+                        </div>
+                    </div>
+    </div>
+
+    <footer>
+        <div class="container">
+           <div class="footer-flex">
+             <div>
+                <h3>Computational<br>Engineering</h3>
+                <p>IIT Hyderabad, kandi, Sangareddy,<br>Telangana 502284, India</p>
+                <p>social media links</p>
+             </div>
+             <div>
+                 <h4 id="ql">Quick Links</h4>
+                 <div class="li-flex">
+                 <div id="margin-req">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="">Academic Calender</a></li>
+                 <li><a href="courses.html">Courses</a></li>
+                 <li><a href="curriculum.html">Curriculum</a></li>
+                 </div>
+                 <div>
+                 <li><a href="">Staff</a></li>
+                 <li><a href="students.html">Students</a></li>
+                 <li><a href="">Carrers</a></li>
+                 <li><a href="">Contact</a></li>
+                 </div>
+                 </div>
+             </div>
+             <div>
+                  <h4>More Useful Links</h4>
+                  <li><a href="https://www.iith.ac.in/">IIT Hyderabad Website</a></li>
+                  <li><a href="https://www.iith.ac.in/academics/departments/">All Departments</a></li>
+             </div>
+           </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
