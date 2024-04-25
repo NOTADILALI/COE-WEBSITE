@@ -13,17 +13,15 @@
     --default-color-rgb: 68, 68, 68;
     --heading-color: #37423b;
     --heading-color-rgb: 55, 66, 59;
-    --accent-color: #999999;
-    --accent-color-rgb: 95, 207, 128;
     --contrast-color: #ffffff;
     --contrast-color-rgb: 255, 255, 255;
   }
   
   /* Nav Menu Colors */
   :root {
-    --nav-color: #272828;
+    --nav-color: #37423b;
     --nav-hover-color: #0067ee;
-    --nav-dropdown-color: #272828;
+    --nav-dropdown-color: #37423b;
     --nav-dropdown-hover-color: #0067ee;
     --nav-dropdown-background-color: #ffffff;
   }
@@ -418,14 +416,14 @@ body {
 
   .logo-text h1{
     font-size: 1.5rem !important;
-    color: black !important;
-    font-weight: 500 !important;
+   
+    font-weight: 600 !important;
     margin-top: 5px !important;
  }
 
  .logo-text h2{
   font-size: 1rem;
-  color: black !important;
+ 
   margin: 0 !important;
  }
 
@@ -451,6 +449,7 @@ body {
 .div-3{
   margin-bottom: 0px;
 }
+
 
 footer{
   background-color: #171e27;
